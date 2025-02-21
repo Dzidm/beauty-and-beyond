@@ -25,7 +25,7 @@
     text-transform: uppercase;
 
     }
-
+    
     .logo {
         display: flex;
         flex-direction: row;
@@ -119,16 +119,17 @@
 }
 
 .feature-two{
-    background-color: #F5F5F5;
+    background-color: rgb(224, 224, 184)
 }
 
 .feature-text button{
-    background-color:antiquewhite;
+    background-color:rgb(126, 83, 28);
     font-size: 1.2rem;
     border: none;
     padding: 10px 20px;
     text-transform: uppercase;
     width: fit-content;
+    color: white;
 }
 
 .feature-text h3{
@@ -137,4 +138,136 @@
 
 .feature-text p{
     font-size: 1.3rem;
+    text-align: justify;
 }
+
+.remarks{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/feetmassage.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+.remarks-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    row-gap: 20px;
+    font-size: 2rem;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.4);
+
+    }
+.remarks-overlay button{
+    border-width: 4px;
+    padding: 7px 20px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    width: fit-content;
+    background-color: rgb(126, 83, 28);
+    border-color: rgb(126, 83, 28);
+    color: white;
+    
+}
+
+
+.remarks-overlay p{
+    font-size: 3rem;
+
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(146, 95, 7); 
+    height: 120vh;
+}
+
+.meet-team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card img{
+    width: 320px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.card{
+    width: 325px;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba (0,0,0,0.2);
+    margin: 30px;
+    color: white;
+
+}
+.card h2{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.team-text h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+    
+}
+
+.card p{
+    font-size: 1.2rem;
+
+}
+
+/* .library{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    background-color: #e0e0b8;
+    color: white;
+
+} */
+
+/* .library{
+    
+    width: 325px;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba (0,0,0,0.2);
+    margin: 30px;
+    color: white;
+
+} */
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} */
